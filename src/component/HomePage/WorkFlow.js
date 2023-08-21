@@ -88,7 +88,8 @@ function WorkFlow() {
                         height={223}
                       />
                       <span
-                        className={` bg-[${data.bg}] bg-[#d83030]  text-white w-[44px] h-[44px] absolute -right-2 top-4 text-center pt-[12px] text-[14px] font-bold  rounded-full }`}
+                        className={` text-white w-[44px] h-[44px] absolute -right-2 top-4 text-center pt-[12px] text-[14px] font-bold  rounded-full }`}
+                        style={{ background: data.bg }}
                       >
                         {"0"}
                         {data.id}
