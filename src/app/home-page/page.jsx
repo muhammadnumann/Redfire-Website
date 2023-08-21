@@ -1,10 +1,10 @@
 import React from "react";
-import Carousel from "../../component/HomePage/Carousel";
-import OurPremiumServices from "../../component/HomePage/OurPremiumServices";
-import AboutCompany from "../../component/HomePage/AboutCompany";
-import WorkFlow from "../../component/HomePage/WorkFlow";
-import OurProjects from "../../component/HomePage/OurProjects";
-import WhyChooseUs from "../../component/HomePage/WhyChooseUs";
+import Carousel from "../../components/HomePage/Carousel";
+import OurPremiumServices from "../../components/HomePage/OurPremiumServices";
+import AboutCompany from "../../components/HomePage/AboutCompany";
+import WorkFlow from "../../components/HomePage/WorkFlow";
+import OurProjects from "../../components/HomePage/OurProjects";
+import WhyChooseUs from "../../components/HomePage/WhyChooseUs";
 
 function Home_Page() {
   return (

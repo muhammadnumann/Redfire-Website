@@ -7,6 +7,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -27,13 +28,16 @@ body {
   background: transparent;
   font-family: inherit;
 }
+
 * {
   scroll-behavior: smooth !important;
   transition: all 0.1s;
 }
+
 .HL li:hover {
   color: #d83030;
 }
+
 .infobox-icon-holder {
   display: inline-flex;
   -webkit-box-flex: 0;
@@ -41,6 +45,7 @@ body {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
+
 .about-btn {
   font-size: 14px;
   fill: #d81a1a;
@@ -48,18 +53,22 @@ body {
   background-color: #ffffff;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
+
 .cshadow {
   box-shadow: 0px 0px 40px 0px rgba(12, 12, 12, 0.1);
 }
+
 .footer-links li {
   margin: 10px 0px;
   cursor: pointer;
   font-weight: 400;
   width: fit-content;
 }
+
 .footer-links li:hover {
   color: #d83030;
 }
+
 .line {
   background-color: #d83030;
   height: 2px;
