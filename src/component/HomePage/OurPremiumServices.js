@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import img1 from "../../../../public/assets/images/work-tools.png";
-import img2 from "../../../../public/assets/images/clipboard.png";
-import img3 from "../../../../public/assets/images/chat.png";
+import img1 from "../../../public/assets/images/work-tools.png";
+import img2 from "../../../public/assets/images/clipboard.png";
+import img3 from "../../../public/assets/images/chat.png";
 
 const DataWeOffer = [
   {

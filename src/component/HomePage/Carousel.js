@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { Fade } from "react-reveal";
-import img1 from "../../../../public/assets/images/banner-3-min.webp";
-import img2 from "../../../../public/assets/images/banner-5-min.webp";
+import img1 from "../../../public/assets/images/banner-3-min.webp";
+import img2 from "../../../public/assets/images/banner-5-min.webp";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";

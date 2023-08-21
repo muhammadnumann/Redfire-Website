@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import about_image from "../../../../public/assets/images/Body-Image.png";
+import about_image from "../../../public/assets/images/Body-Image.png";
 function AboutCompany() {
   return (
     <div className=" p-5">

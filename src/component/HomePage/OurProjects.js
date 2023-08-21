@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import img1 from "../../../../public/assets/images/icon-blue-stats-3.png";
-import img2 from "../../../../public/assets/images/icon-blue-cloud-computing-3.png";
-import img3 from "../../../../public/assets/images/icon-blue-devices-3.png";
-import img4 from "../../../../public/assets/images/icon-blue-artist-3.png";
-import home from "../../../../public/assets/images/home2-pic-circle-3.jpg";
+import img1 from "../../../public/assets/images/icon-blue-stats-3.png";
+import img2 from "../../../public/assets/images/icon-blue-cloud-computing-3.png";
+import img3 from "../../../public/assets/images/icon-blue-devices-3.png";
+import img4 from "../../../public/assets/images/icon-blue-artist-3.png";
+import home from "../../../public/assets/images/home2-pic-circle-3.jpg";
 
 const DataProject = [
   {

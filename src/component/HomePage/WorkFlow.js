@@ -1,8 +1,8 @@
 import Image from "next/image";
-import img1 from "../../../../public/assets/images/home3-process1-3.jpg";
-import img2 from "../../../../public/assets/images/home3-process2-3.jpg";
-import img3 from "../../../../public/assets/images/home3-process3-3.jpg";
-import img4 from "../../../../public/assets/images/home3-process4-3.jpg";
+import img1 from "../../../public/assets/images/home3-process1-3.jpg";
+import img2 from "../../../public/assets/images/home3-process2-3.jpg";
+import img3 from "../../../public/assets/images/home3-process3-3.jpg";
+import img4 from "../../../public/assets/images/home3-process4-3.jpg";
 
 const DataWeOffer = [
   {

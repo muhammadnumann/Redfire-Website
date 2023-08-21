@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import img1 from "../../../../public/assets/icons/person-booth-solid.svg";
-import img2 from "../../../../public/assets/icons/trophy-solid.svg";
-import img3 from "../../../../public/assets/icons/building-solid.svg";
-import img4 from "../../../../public/assets/icons/diagram-project-solid.svg";
+import img1 from "../../../public/assets/icons/person-booth-solid.svg";
+import img2 from "../../../public/assets/icons/trophy-solid.svg";
+import img3 from "../../../public/assets/icons/building-solid.svg";
+import img4 from "../../../public/assets/icons/diagram-project-solid.svg";
 import {
   faTrophy,
   faBuilding,
