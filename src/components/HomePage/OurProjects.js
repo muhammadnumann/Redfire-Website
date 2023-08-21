@@ -31,8 +31,8 @@ const DataProject = [
 
 function OurProjects() {
   return (
-    <div className=" w-full cshadow my-20">
-      <div className=" max-w-[1140px] mr-auto ml-auto py-16">
+    <div className=" w-full cshadow">
+      <div className=" max-w-[1140px] mr-auto ml-auto py-20 max-lg:py-10">
         <div className=" grid lg:grid-cols-2 md:grid-cols-1   gap-5 border-dashed border p-10">
           <div>
             <div>

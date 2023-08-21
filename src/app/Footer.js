@@ -25,7 +25,7 @@ function Footer() {
   return (
     <>
       <div className=" bg-[#252628] text-white w-full">
-        <div className=" grid lg:grid-cols-5 md:grid-cols-2  justify-center gap-3 pt-14 pb-5">
+        <div className=" grid lg:grid-cols-5 md:grid-cols-2  justify-center gap-3 py-10 px-5">
           <div className=" pt-3 pl-5 max-lg:p-5 flex flex-col items-center">
             <Image src={footer} alt="Image" width={200} height={60} />
             <p className=" mt-8 text-base">
@@ -147,7 +147,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className=" bg-[#252628] mt-10 text-white">
+      <div className=" bg-[#252628] shadow-lg shadow-slate-200 text-white">
         <div className=" grid lg:grid-cols-3 md:grid-cols-3   max-w-[1140px] mr-auto ml-auto ">
           <div className=" flex items-center px-5 py-4 bg-black">
             <FontAwesomeIcon
@@ -204,7 +204,7 @@ function Footer() {
           </div>
         </div>
         <div className=" w-full py-5">
-          <h1 className=" opacity-60 text-center">
+          <h1 className=" opacity-60 text-center text-base max-sm:text-xs">
             Copyright 2022 Red Fire AI All rights reserved.
           </h1>
         </div>

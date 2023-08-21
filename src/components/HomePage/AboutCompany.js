@@ -3,7 +3,7 @@ import React from "react";
 import about_image from "../../../public/assets/images/Body-Image.png";
 function AboutCompany() {
   return (
-    <div className=" p-5">
+    <div className=" px-5 py-20 max-lg:py-10">
       <div className="max-w-[1140px] mr-auto ml-auto">
         <div className=" grid lg:grid-cols-2 justify-center items-center wf">
           <div className=" w-full flex justify-center px-2 ">
@@ -49,7 +49,7 @@ function AboutCompany() {
                 and is looking forward to more success ahead.
               </p>
             </div>
-            <div className="about-btn w-fit px-5 py-2 mt-8 cursor-pointer">
+            <div className="about-btn w-fit px-5 py-2 mt-8 cursor-pointer hover:bg-[#d83030] max-lg:m-auto max-lg:mt-5 hover:text-white">
               <span className="">More About Us</span>
             </div>
           </div>

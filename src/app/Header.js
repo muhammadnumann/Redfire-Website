@@ -42,7 +42,7 @@ const NavLinks = ({ setLinkOpen }) => {
   return (
     <div className={`text-[17px] font-bold `}>
       <ul
-        className={`flex justify-around HL text-[#676767] items-center max-md:absolute font-medium left-0 max-md:flex-col max-md:shadow-2xl max-md:h-[100vh] max-md:overflow-scroll max-md:top-0 max-md:bg-[white] max-md:w-[270px] z-50  max-md:justify-start max-md:items-start `}
+        className={`flex justify-around HL text-[#676767] items-center max-md:fixed overflow-hidden font-medium left-0 max-md:flex-col max-md:shadow-2xl max-md:h-[100vh] max-md:overflow-scroll max-md:top-0 max-md:bg-[white] max-md:w-[270px] z-50  max-md:justify-start max-md:items-start `}
       >
         <li className=" max-md:flex py-3 hidden bg-[#d83030] w-full justify-end">
           <Image

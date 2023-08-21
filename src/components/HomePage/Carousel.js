@@ -67,7 +67,7 @@ function Carousel() {
               </p>
             </Fade>
             <Fade bottom>
-              <div className="w-fit bg-black text-white text-lg font-semibold px-5 py-2 cursor-pointer">
+              <div className="w-fit bg-black hover:bg-[#d83030] hover:text-white transi text-white text-lg font-[500] px-5 py-2 cursor-pointer">
                 {currentItem.button}
               </div>
             </Fade>

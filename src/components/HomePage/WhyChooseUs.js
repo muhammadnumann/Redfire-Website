@@ -39,8 +39,8 @@ const DataProject = [
 
 function WhyChooseUs() {
   return (
-    <div className=" bg-[#FFF3F3] my-10 p-5 flex content-center flex-col items-center justify-center">
-      <div className="ml-auto mr-auto max-w-[1140px] flex flex-col justify-center items-center py-16">
+    <div className=" bg-[#FFF3F3]  px-5 py-20 max-lg:py-10  flex content-center flex-col items-center justify-center">
+      <div className="ml-auto mr-auto max-w-[1140px] flex flex-col justify-center items-center">
         <div className=" w-full">
           <div className=" flex justify-center items-center  mb-4">
             <h1 className=" text-[#d83030] text-lg font-semibold text-center ">
