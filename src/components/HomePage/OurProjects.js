@@ -33,7 +33,7 @@ function OurProjects() {
   return (
     <div className=" w-full cshadow">
       <div className=" max-w-[1140px] mr-auto ml-auto py-20 max-lg:py-10">
-        <div className=" grid lg:grid-cols-2 md:grid-cols-1   gap-5 border-dashed border p-10">
+        <div className=" grid lg:grid-cols-2 md:grid-cols-1   gap-5 border-dashed border p-10 max-lg:p-5">
           <div>
             <div>
               <h1 className=" text-[45px] font-bold">Our Projects</h1>
@@ -46,7 +46,7 @@ function OurProjects() {
             <div className=" mt-10 grid lg:grid-cols-2 md:grid-cols-2 items-center justify-center sm:grid-cols-2">
               {DataProject.map((data, index) => (
                 <>
-                  <div className=" flex m-4" key={index}>
+                  <div className=" flex m-4 justify-center" key={index}>
                     <div>
                       <Image src={data.icon} width={51} height={51} alt="" />
                     </div>

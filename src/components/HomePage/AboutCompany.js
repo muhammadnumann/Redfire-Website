@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import about_image from "../../../public/assets/images/Body-Image.png";
+import Link from "next/link";
 function AboutCompany() {
   return (
     <div className=" px-5 py-20 max-lg:py-10">
@@ -49,9 +50,11 @@ function AboutCompany() {
                 and is looking forward to more success ahead.
               </p>
             </div>
-            <div className="about-btn w-fit px-5 py-2 mt-8 cursor-pointer hover:bg-[#d83030] max-lg:m-auto max-lg:mt-5 hover:text-white">
-              <span className="">More About Us</span>
-            </div>
+            <Link href={"/about-us"}>
+              <div className="about-btn w-fit px-5 py-2 mt-8 cursor-pointer hover:bg-[#d83030] max-lg:m-auto max-lg:mt-5 hover:text-white">
+                <span className="">More About Us</span>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

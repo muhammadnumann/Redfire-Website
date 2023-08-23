@@ -42,7 +42,7 @@ const DataWeOffer = [
 
 function WorkFlow() {
   return (
-    <div className=" bg-[#FFF3F3]  p-5 py-20 max-lg:py-10 flex content-center flex-col items-center justify-center">
+    <div className=" bg-[#FFF3F3]  px-4 py-20 max-lg:py-10 flex content-center flex-col items-center justify-center">
       <div className="ml-auto mr-auto max-w-[1140px] flex flex-col justify-center items-center">
         <div className=" w-full">
           <div className=" flex justify-center items-center  mb-4">

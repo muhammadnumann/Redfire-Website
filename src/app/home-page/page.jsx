@@ -9,6 +9,7 @@ import WhyChooseUs from "../../components/HomePage/WhyChooseUs";
 function Home_Page() {
   return (
     <div>
+
       <Carousel />
       <OurPremiumServices />
       <AboutCompany />

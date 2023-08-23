@@ -70,7 +70,7 @@ function WhyChooseUs() {
                     />
                   </div>
                   <div className=" ml-4">
-                    <h1 className=" text-5xl mb-4 font-extrabold text-white ">
+                    <h1 className=" text-5xl max-lg:text-4xl mb-4 font-extrabold text-[#c15353] ">
                       {data.prjcount}
                     </h1>
                     <p className=" text-[17px] font-bold text-[#7e838b]">

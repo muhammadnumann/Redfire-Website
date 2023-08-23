@@ -160,10 +160,14 @@ function Footer() {
               }}
               color="white"
             />
-            <div className=" ml-3">
-              <h1 className=" font-semibold text-base "></h1>
-              <a href="mailto:info@redfireai.com">info@redfireai.com</a>
-              <p className=" opacity-60">Drop Us a Line</p>
+            <div className=" pl-3">
+              <a
+                href="mailto:info@redfireai.com"
+                className=" text-base max-sm:text-sm"
+              >
+                info@redfireai.com
+              </a>
+              <p className=" opacity-60 max-sm:text-sm">Drop Us a Line</p>
             </div>
           </div>
           <div className=" flex items-center px-5 py-4 bg-[#d83030]">
@@ -177,11 +181,13 @@ function Footer() {
               }}
               color="white"
             />
-            <div className=" ml-3">
+            <div className=" pl-3">
               <span className=" font-semibold text-base ">
-                <a href="tel:+923266116118">+92 (326) 6116118</a>
+                <a href="tel:+923266116118" className="max-sm:text-sm">
+                  +92 (326) 6116118
+                </a>
               </span>
-              <p className=" opacity-60">Call Us Now</p>
+              <p className=" opacity-60 max-sm:text-sm">Call Us Now</p>
             </div>
           </div>
           <div className=" flex items-center px-5 py-4 bg-black">
@@ -195,11 +201,11 @@ function Footer() {
               }}
               color="white"
             />
-            <div className=" ml-3">
-              <h1 className=" font-semibold text-base ">
+            <div className=" pl-3">
+              <h1 className=" font-semibold text-base max-sm:text-sm ">
                 Jeff Heights, Lahore, Pakistan
               </h1>
-              <p className=" opacity-60">Get Direction</p>
+              <p className=" opacity-60 max-sm:text-sm">Get Direction</p>
             </div>
           </div>
         </div>

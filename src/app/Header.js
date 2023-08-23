@@ -42,7 +42,7 @@ const NavLinks = ({ setLinkOpen }) => {
   return (
     <div className={`text-[17px] font-bold `}>
       <ul
-        className={`flex justify-around HL text-[#676767] items-center max-md:fixed overflow-hidden font-medium left-0 max-md:flex-col max-md:shadow-2xl max-md:h-[100vh] max-md:overflow-scroll max-md:top-0 max-md:bg-[white] max-md:w-[270px] z-50  max-md:justify-start max-md:items-start `}
+        className={`flex justify-around HL text-[#676767] items-center max-md:fixed overflow-hidden font-medium left-0 max-md:flex-col max-md:shadow-2xl  max-md:h-[100vh] max-md:top-0 max-md:bg-[white] max-md:w-[270px] z-50  max-md:justify-start max-md:items-start `}
       >
         <li className=" max-md:flex py-3 hidden bg-[#d83030] w-full justify-end">
           <Image
@@ -131,7 +131,7 @@ function Header() {
   return (
     <div className="w-full ">
       <div className=" w-full max-md:hidden">
-        <div className=" grid lg:grid-cols-2 ">
+        <div className=" grid lg:grid-cols-3 ">
           <div className=" bg-[#d83030]   py-4">
             <ul className=" text-white text-sm flex items-center justify-center  ">
               <li className=" mr-5 font-semibold">
@@ -146,8 +146,8 @@ function Header() {
               </li>
             </ul>
           </div>
-          <div className="py-4 w-full bg-[#252628]">
-            <ul className=" text-[#bbbbbb] flex justify-center items-center">
+          <div className="py-4 w-full bg-[#252628] max-lg:col-span-1 col-span-2">
+            <ul className=" text-[#bbbbbb] flex max-lg:justify-center justify-end mr-20 max-lg:mr-0 items-center">
               <li>
                 <span>
                   <span>Mon – Fri: 9:00am – 7:00pm</span>
@@ -209,7 +209,7 @@ function Header() {
           )}
         </div>
 
-        <div className={` max-md:flex hidden w-full`}>
+        <div className={` max-md:flex hidden`}>
           {linkisOpen ? <NavLinks setLinkOpen={setLinkOpen} /> : ""}
         </div>
       </div>
