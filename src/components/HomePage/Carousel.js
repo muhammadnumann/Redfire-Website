@@ -63,13 +63,12 @@ const Carousel = () => {
     <div className=" w-full overflow-x-hidden ">
       <Slider ref={(slider) => (sliderRef.current = slider)} {...settings}>
         {data.map((item, index) => (
-          <>
+          <div key={index}>
             <div
               className="relative bg-no-repeat bg-cover bg-center object-contain"
-              key={index}
               style={{ backgroundImage: `url(${item.image.src})` }}
             >
-              <div className="  max-sm:max-h-[]   mr-auto ml-auto py-48 pl-28 max-lg:px-20 max-lg:py-28 max-md:py-20 max-md:px-10 max-sm:py-10 ">
+              <div className="mr-auto ml-auto py-48 pl-28 max-lg:px-20 max-lg:py-28 max-md:py-20 max-md:px-10 max-sm:py-10 ">
                 <Fade top>
                   <h1 className="text-[#cf2e2e] font-bold text-5xl max-sm:text-xl">
                     {item.title}
@@ -121,7 +120,7 @@ const Carousel = () => {
                 />
               </button>
             </div>
-          </>
+          </div>
         ))}
       </Slider>
     </div>

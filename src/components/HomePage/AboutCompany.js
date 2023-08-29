@@ -11,7 +11,7 @@ function AboutCompany() {
             <Image src={about_image} alt="" width={707} height={616} />
           </div>
           <div>
-            <div className=" mb-8">
+            <div className=" mb-8 max-lg:my-8">
               <div className=" flex justify-center items-center  mb-4">
                 <h1 className=" text-[#d83030] text-lg font-semibold text-center ">
                   About Our Company

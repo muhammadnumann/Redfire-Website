@@ -37,34 +37,15 @@ function Footer() {
             <div className=" w-full flex items-center justify-center mt-8">
               <FontAwesomeIcon
                 icon={faFacebook}
-                style={{
-                  background: "#3b5998",
-                  padding: "10px 12px",
-                  fontSize: "30px",
-                  cursor: "pointer",
-                  borderRadius: "999px",
-                }}
+                className=" p-3 mx-1 cursor-pointer hover:opacity-60 rounded-full text-3xl bg-[#3b5998]"
               />
               <FontAwesomeIcon
                 icon={faInstagram}
-                style={{
-                  background: "#ff6459",
-                  padding: "10px 12px",
-                  fontSize: "30px",
-                  cursor: "pointer",
-                  margin: "0px 10px",
-                  borderRadius: "999px",
-                }}
+                className=" p-3 mx-1 cursor-pointer hover:opacity-60 rounded-full text-3xl bg-[#ff6459]"
               />
               <FontAwesomeIcon
                 icon={faLinkedin}
-                style={{
-                  background: "#0077b5",
-                  padding: "10px 12px",
-                  fontSize: "30px",
-                  cursor: "pointer",
-                  borderRadius: "999px",
-                }}
+                className=" p-3 mx-1 cursor-pointer hover:opacity-60 rounded-full text-3xl bg-[#0077b5]"
               />
             </div>
           </div>

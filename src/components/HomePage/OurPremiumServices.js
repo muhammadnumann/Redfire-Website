@@ -56,7 +56,10 @@ function OurPremiumServices() {
           <div className=" grid lg:grid-cols-3 gap-5 md:grid-cols-2 sm:grid-cols-1 justify-center h-auto py-6 ">
             {DataWeOffer.map((data, index) => (
               <>
-                <div className=" flex max-sm:flex-col w-full justify-center max-sm:items-center p-6 max-lg:p-5 max-lg:py-0 ">
+                <div
+                  className=" flex max-sm:flex-col w-full justify-center max-sm:items-center p-6 max-lg:p-5 max-lg:py-0 "
+                  key={index}
+                >
                   <div className=" w-[84px] h-[84px] mr-4 infobox-icon-holder max-sm:mb-5">
                     <span>
                       <Image src={data.image} alt="Image" className=" w-full" />

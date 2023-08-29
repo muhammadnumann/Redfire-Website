@@ -71,7 +71,10 @@ function WorkFlow() {
           <div className=" grid lg:grid-cols-4 gap-5 md:grid-cols-3 sm:grid-cols-2 justify-center h-auto py-6 ">
             {DataWeOffer.map((data, index) => (
               <>
-                <div className=" flex flex-col jus max-sm:flex-col w-full items-center p-10 max-lg:p-5 max-lg:py-0 ">
+                <div
+                  className=" flex flex-col jus max-sm:flex-col w-full items-center p-10 max-lg:p-5 max-lg:py-0 "
+                  key={index}
+                >
                   <div
                     className={`${
                       data.id == 2

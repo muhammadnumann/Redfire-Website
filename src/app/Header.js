@@ -1,6 +1,4 @@
 "use client";
-import x from "../../public/assets/icons/xmark-solid.svg";
-import bar from "../../public/assets/icons/bars-solid.svg";
 
 import { React, useState, useEffect } from "react";
 import logo from "../../public/assets/icons/Logo.png";
@@ -12,6 +10,12 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import {
+  faBars,
+  faEnvelope,
+  faPhone,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 library.add(faFacebook, faInstagram, faLinkedin);
@@ -45,11 +49,11 @@ const NavLinks = ({ setLinkOpen }) => {
         className={`flex justify-around HL text-[#676767] items-center max-md:fixed overflow-hidden font-medium left-0 max-md:flex-col max-md:shadow-2xl  max-md:h-[100vh] max-md:top-0 max-md:bg-[white] max-md:w-[270px] z-50  max-md:justify-start max-md:items-start `}
       >
         <li className=" max-md:flex py-3 hidden bg-[#d83030] w-full justify-end">
-          <Image
-            src={x}
-            alt="X"
-            width={15}
-            className=" mr-5 cursor-pointer"
+          <FontAwesomeIcon
+            icon={faXmark}
+            color="black"
+            style={{ fontSize: "17px" }}
+            className=" mr-5"
             onClick={() => {
               setLinkOpen(false);
             }}
@@ -131,20 +135,35 @@ function Header() {
   return (
     <div className="w-full ">
       <div className=" w-full max-md:hidden">
-        <div className=" grid lg:grid-cols-3 ">
-          <div className=" bg-[#d83030]   py-4">
-            <ul className=" text-white text-sm flex items-center justify-center  ">
-              <li className=" mr-5 font-semibold">
-                <a href="tel:+92-326-6116118">
-                  <span>+92-326-6116118</span>
-                </a>
-              </li>
-              <li className=" mr-5 font-semibold">
-                <a href="mailto:info@redfireai.com">
-                  <span>info@redfireai.com</span>
-                </a>
-              </li>
-            </ul>
+        <div className=" grid lg:grid-cols-3">
+          <div className=" bg-[#d83030] z-50 py-4 relative">
+            <div className=" c-transform-1 skew-x-[-26deg] transform z-20 max-lg:hidden  bg-[#d83030] right-[-24px] max-lg:right-0"></div>
+            <div className="c-transform-2 bg-[#d83030] transform skew-x-[-26deg] max-lg:skew-x-0 max-lg:relative right-[-15px] max-lg:right-0">
+              <ul className=" text-white c-transform-3 skew-x-[26deg] bg-transparent z-50 h-full max-lg:skew-x-0   text-sm flex items-center max-lg:justify-center justify-end   ">
+                <li className=" mr-5 font-semibold">
+                  <a href="tel:+92-326-6116118" className=" hover:opacity-90">
+                    <FontAwesomeIcon
+                      icon={faPhone}
+                      className=" opacity-60 mr-2 mt-1 "
+                    />
+                    <span>+92-326-6116118</span>
+                  </a>
+                </li>
+                <li className=" mr-5 font-semibold">
+                  <a
+                    href="mailto:info@redfireai.com"
+                    className="hover:opacity-90"
+                  >
+                    <FontAwesomeIcon
+                      icon={faEnvelope}
+                      className=" opacity-60 mr-2 mt-1 "
+                    />
+                    <span>info@redfireai.com</span>
+                  </a>
+                </li>
+                <li className=""></li>
+              </ul>
+            </div>
           </div>
           <div className="py-4 w-full bg-[#252628] max-lg:col-span-1 col-span-2">
             <ul className=" text-[#bbbbbb] flex max-lg:justify-center justify-end mr-20 max-lg:mr-0 items-center">
@@ -155,25 +174,37 @@ function Header() {
               </li>
               <span className=" bg-[#bbbbbb] w-[2px] h-4 mx-5"></span>
               <li className=" hover:opacity-100 cursor-pointer opacity-60 mx-2">
-                <FontAwesomeIcon
-                  icon={faFacebook}
-                  color="white"
-                  style={{ fontSize: "22px" }}
-                />
+                <a
+                  href="https://www.facebook.com/redfireaitech"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon
+                    icon={faFacebook}
+                    color="white"
+                    style={{ fontSize: "22px" }}
+                  />
+                </a>
               </li>
               <li className=" hover:opacity-100 cursor-pointer opacity-60 mx-2">
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  color="white"
-                  style={{ fontSize: "22px" }}
-                />
+                <a href="https://www.instagram.com/redfireai/" target="_blank">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    color="white"
+                    style={{ fontSize: "22px" }}
+                  />
+                </a>
               </li>
               <li className=" hover:opacity-100 cursor-pointer opacity-60 mx-2">
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  color="white"
-                  style={{ fontSize: "22px" }}
-                />
+                <a
+                  href="https://www.linkedin.com/company/red-fire-ai-pvt-ltd/mycompany/"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    color="white"
+                    style={{ fontSize: "22px" }}
+                  />
+                </a>
               </li>
             </ul>
           </div>
@@ -195,17 +226,17 @@ function Header() {
           onClick={handleOpenNav}
         >
           {linkisOpen ? (
-            <Image
-              src={x}
-              alt="X-mark"
-              className="bg-white p-1 rounded-lg w-[25px] h-[25px] cursor-pointer"
-            ></Image>
+            <FontAwesomeIcon
+              icon={faXmark}
+              color="black"
+              style={{ fontSize: "17px" }}
+            />
           ) : (
-            <Image
-              src={bar}
-              alt="X-mark"
-              className=" bg-white p-1 rounded-lg w-[25px] h-[25px] cursor-pointer"
-            ></Image>
+            <FontAwesomeIcon
+              icon={faBars}
+              color="black"
+              style={{ fontSize: "17px" }}
+            />
           )}
         </div>
 
