@@ -15,6 +15,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "autoprefixer": "10.4.15",
     "babel-runtime": "^6.26.0",
+    "bootstrap": "^5.3.1",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.16",
     "next": "13.4.16",

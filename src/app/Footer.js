@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 library.add(
   faFacebook,
   faInstagram,
@@ -27,7 +28,9 @@ function Footer() {
       <div className=" bg-[#252628] text-white w-full">
         <div className=" grid lg:grid-cols-5 md:grid-cols-2  justify-center gap-3 py-10 px-5">
           <div className=" pt-3 pl-5 max-lg:p-5 flex flex-col items-center">
-            <Image src={footer} alt="Image" width={200} height={60} />
+            <Link href={"/"}>
+              <Image src={footer} alt="Image" width={200} height={60} />
+            </Link>
             <p className=" mt-8 text-base text-center">
               RedFireAi is not just a worldwide recognized IT firm, but also a
               family of skilled specialists that provide unique solutions to
@@ -61,11 +64,17 @@ function Footer() {
           <div className=" pt-3 pl-5 max-lg:p-5">
             <h1 className=" text-xl font-extrabold">Company</h1>
             <ul className=" text-[#676767] footer-links ml-1">
-              <li>About Us </li>
+              <li>
+                <Link href={"about-us"}>About Us</Link>
+              </li>
               <li>We Work With</li>
-              <li>Services </li>
+              <li>
+                <Link href={"services"}>Services</Link>
+              </li>
               <li>Sitemap</li>
-              <li>Contact</li>
+              <li>
+                <Link href={"contact-us"}>Contact</Link>
+              </li>
             </ul>
           </div>
           <div className=" pt-3 pl-5 max-lg:p-5">

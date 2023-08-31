@@ -6,7 +6,6 @@ function Contact_us() {
         <div>
             <TcontactUs />
             <ContactForm />
-
         </div>
     )
 }

@@ -43,10 +43,10 @@ function OurProjects() {
                 among our proficiency
               </p>
             </div>
-            <div className=" mt-10 grid lg:grid-cols-2 md:grid-cols-2 items-center justify-center sm:grid-cols-2">
+            <div className=" mt-10 grid lg:grid-cols-2 md:grid-cols-2 items-center justify-center">
               {DataProject.map((data, index) => (
                 <>
-                  <div className=" flex m-4 justify-center" key={index}>
+                  <div className=" flex m-4 items-center" key={index}>
                     <div>
                       <Image src={data.icon} width={51} height={51} alt="" />
                     </div>
