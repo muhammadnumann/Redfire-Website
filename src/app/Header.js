@@ -16,9 +16,9 @@ import {
   faPhone,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 library.add(faFacebook, faInstagram, faLinkedin);
+
 const NavLinks = ({ setLinkOpen }) => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState();
@@ -167,7 +167,7 @@ function Header() {
           </div>
           <div className="py-4 w-full bg-[#252628] max-lg:col-span-1 col-span-2">
             <ul className=" text-[#bbbbbb] flex max-lg:justify-center justify-end mr-20 max-lg:mr-0 items-center">
-              <li>
+              <li className=" hover:text-white cursor-pointer">
                 <span>
                   <span>Mon – Fri: 9:00am – 7:00pm</span>
                 </span>

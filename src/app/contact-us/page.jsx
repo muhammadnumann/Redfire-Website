@@ -1,8 +1,13 @@
-import React from 'react'
+import TcontactUs from '../../components/ContactUs/TContactUs'
+import ContactForm from '../../components/ContactUs/ContactForm'
 
 function Contact_us() {
     return (
-        <div>Contact_us</div>
+        <div>
+            <TcontactUs />
+            <ContactForm />
+
+        </div>
     )
 }
 

@@ -1,8 +1,10 @@
-import React from 'react'
+import TCareer from '../../components/Career/TCareer'
 
 function Career() {
     return (
-        <div>Career</div>
+        <div>
+            <TCareer />
+        </div>
     )
 }
 

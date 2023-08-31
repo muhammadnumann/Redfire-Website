@@ -26,6 +26,11 @@ function CompanyTeam() {
                 important company assets is our reputation for ethical behavior,
                 honesty and fair dealing.
               </p>
+              <p className=" text-lg font-semibold text-center m-5 text-[#d83030] ">
+                <span className=" text-4xl">{'"'}</span> Nothing is Impossible,
+                the word itself says I{"'"}m possible{" "}
+                <span className=" text-4xl">{'"'}</span>
+              </p>
               <p className=" my-3 font-bold text-lg ">Muhammad Usman</p>
               <p className=" font-semibold text-base">
                 Chairman and Chief Executive Officer

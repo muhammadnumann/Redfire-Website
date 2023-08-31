@@ -1,9 +1,22 @@
-import Home_Page from "./home-page/page";
+import React from "react";
+import Carousel from "../components/HomePage/Carousel";
+import OurPremiumServices from "../components/HomePage/OurPremiumServices";
+import AboutCompany from "../components/HomePage/AboutCompany";
+import WorkFlow from "../components/HomePage/WorkFlow";
+import OurProjects from "../components/HomePage/OurProjects";
+import WhyChooseUs from "../components/HomePage/WhyChooseUs";
 
-export default function Home() {
+function HomePage() {
   return (
-    <main className="">
-      <Home_Page />
-    </main>
+    <div>
+      <Carousel />
+      <OurPremiumServices />
+      <AboutCompany />
+      <WorkFlow />
+      <OurProjects />
+      <WhyChooseUs />
+    </div>
   );
 }
+
+export default HomePage;

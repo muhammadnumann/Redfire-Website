@@ -28,25 +28,34 @@ function Footer() {
         <div className=" grid lg:grid-cols-5 md:grid-cols-2  justify-center gap-3 py-10 px-5">
           <div className=" pt-3 pl-5 max-lg:p-5 flex flex-col items-center">
             <Image src={footer} alt="Image" width={200} height={60} />
-            <p className=" mt-8 text-base">
+            <p className=" mt-8 text-base text-center">
               RedFireAi is not just a worldwide recognized IT firm, but also a
               family of skilled specialists that provide unique solutions to
               global brands, companies, mid-size organizations, and even
               startups with top-notch innovative solutions.
             </p>
             <div className=" w-full flex items-center justify-center mt-8">
-              <FontAwesomeIcon
-                icon={faFacebook}
-                className=" p-3 mx-1 cursor-pointer hover:opacity-60 rounded-full text-3xl bg-[#3b5998]"
-              />
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className=" p-3 mx-1 cursor-pointer hover:opacity-60 rounded-full text-3xl bg-[#ff6459]"
-              />
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                className=" p-3 mx-1 cursor-pointer hover:opacity-60 rounded-full text-3xl bg-[#0077b5]"
-              />
+              <a href="https://www.facebook.com/redfireaitech" target="_blank">
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className=" p-3 mx-1 cursor-pointer hover:opacity-60 rounded-full text-3xl bg-[#3b5998]"
+                />
+              </a>
+              <a href="https://www.instagram.com/redfireai/" target="_blank">
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className=" p-3 mx-1 cursor-pointer hover:opacity-60 rounded-full text-3xl bg-[#ff6459]"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/red-fire-ai-pvt-ltd/mycompany/"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className=" p-3 mx-1 cursor-pointer hover:opacity-60 rounded-full text-3xl bg-[#0077b5]"
+                />
+              </a>
             </div>
           </div>
           <div className=" pt-3 pl-5 max-lg:p-5">
